@@ -3,4 +3,13 @@ ktor:
     port: 8080
   application:
     modules:
+      - com.example.SerializationKt.configureSerialization
+      - com.example.DatabaseKt.configureDatabase
       - com.example.RoutingKt.configureRouting
+      - com.example.UserRoutesKt.configureUserRoutes
+      - com.example.DeckRoutesKt.configureDeckRoutes
+      - com.example.StudyRoutesKt.configureStudyRoutes
+
+flashcards:
+  db:
+    url: "jdbc:h2:file:./data/flashcards"
