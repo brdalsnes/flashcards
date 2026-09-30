@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "skills": {
+    "kotlin-ktor-patterns": {
+      "source": "affaan-m/ecc",
+      "sourceType": "github",
+      "skillPath": "skills/kotlin-ktor-patterns/SKILL.md",
+      "computedHash": "2c379bb26946179a48ad2c3b49c9460b0a0309a80709f03693ab8a3ef480e582"
+    }
+  }
+}
